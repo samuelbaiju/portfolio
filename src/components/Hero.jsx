@@ -42,7 +42,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8 animate-fade-in-up delay-200">
-            Full Stack Python Developer
+            Full Stack Python Developer|Django Enthusiast
           </p>
 
           {/* Description */}

@@ -12,6 +12,13 @@ const Skills = () => {
         { name: 'Django REST Framework', description: 'Building RESTful APIs' },
         { name: 'PostgreSQL', description: 'Advanced database management' },
         { name: 'MySQL', description: 'Relational database management' },
+        { name: 'Celery',description: 'Asynchronous task queue for background processing'},
+        {
+          name: 'Flask',
+          description: 'Lightweight web framework for microservices'
+        }
+
+
       ]
     },
     {
@@ -22,6 +29,7 @@ const Skills = () => {
         { name: 'JavaScript', description: 'Dynamic web interactions' },
         { name: 'Tailwind CSS', description: 'Utility-first styling' },
         { name: 'HTML/CSS', description: 'Semantic markup & styling' },
+
       ]
     },
     {
@@ -30,6 +38,8 @@ const Skills = () => {
       skills: [
         { name: 'VSCode', description: 'Primary code editor' },
         { name: 'Git', description: 'Version control & collaboration' },
+        { name: 'Docker', description: 'Containerization & deployment' },
+        { name: 'Postman', description: 'API testing & development' },
       ]
     }
   ];
@@ -85,7 +95,19 @@ const Skills = () => {
         </div>
 
         {/* Additional technologies */}
+        <div className="mt-16 text-center">
+          <h3 className="text-2xl font-semibold text-white mb-6">
+            Additional Technologies
+          </h3>
+          <p className="text-gray-400 mb-8">
+            I alo have experience with:
+          </p>
+          <div className="flex flex-wrap justify-center gap-6">
+            <span className="bg-gray-800 text-blue-400 px-4 py-2 rounded-full">
+              Automation tools (Selenium, Playwright) </span>
+              </div>
       </div>
+        </div>
     </section>
   );
 };

@@ -4,13 +4,13 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
   {
-    title: 'To-Do App with Authentication',
+    title: 'Solo Sparks - Self-Discovery Web App',
     description:
-      'A simple yet powerful task management app built using Django with full user authentication and CRUD functionality. It features session-based login and task filtering to improve productivity and data privacy.',
-    image: 'https://images.pexels.com/photos/5380641/pexels-photo-5380641.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['Python', 'Django', 'CRUD', 'Authentication'],
-    github: 'https://github.com/samuelbaiju/todoapp', // Replace with actual link
-    live: 'https://example.com', // Optional: Replace with live URL
+      'A full-stack self-discovery platform developed using React.js and Django REST Framework. Features include personalized quests, multimedia reflections, gamified rewards, and secure JWT authentication.',
+    image: 'https://images.pexels.com/photos/1181356/pexels-photo-1181356.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tags: ['React.js', 'Django REST', 'PostgreSQL', 'JWT', 'Cloudinary'],
+    github: 'https://github.com/samuelbaiju/solo-sparks-1', // Replace with actual Solo Sparks repo if available
+    live: 'https://example.com', // Optional: Replace with actual live URL
     featured: true
   },
   {
@@ -24,22 +24,22 @@ const Projects = () => {
     featured: true
   },
   {
-    title: 'College Chatbot – Info Assistant',
+    title: 'CEC-Bot – College Chatbot',
     description:
-      'A chatbot built using Dialogflow and integrated with the official college website. It uses NLP to provide real-time automated answers to student queries and includes Django for secure authentication and backend management.',
+      'An intelligent chatbot integrated into the official college website using Dialogflow for NLP. Handles real-time student queries with secure Django-based authentication and backend.',
     image: 'https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['Dialogflow', 'Django', 'NLP', 'Authentication'],
-    github: 'https://github.com/your-username/college-chatbot', // Replace with actual link
+    tags: ['Django', 'Dialogflow', 'Chatbot', 'Authentication'],
+    github: 'https://github.com/samuelbaiju', // Replace with actual CEC-Bot repo if available
     live: 'https://example.com',
     featured: true
   },
-  {
-    title: 'Note-Holder – Full-Stack Notes App',
+   {
+    title: 'Binance Futures Trading Bot',
     description:
-      'A full-stack notes management app built with a Django REST Framework backend and a React + Tailwind CSS frontend. Users can create, edit, and delete notes in a clean and responsive interface, with API-powered data persistence and real-time updates.',
-    image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['React', 'Tailwind CSS', 'Django', 'REST API'],
-    github: 'https://github.com/samuelbaiju/react-django-crud', // Replace with actual link
+      'A Python-based bot for automated futures trading using the Binance API. Includes real-time market data handling, Django backend for trade history, Celery for task scheduling, and Docker deployment.',
+    image: 'https://images.pexels.com/photos/8370774/pexels-photo-8370774.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tags: ['Python', 'Binance API', 'Django', 'Celery', 'Docker'],
+    github: 'https://github.com/samuelbaiju/samuel-binance-bot', // Replace with actual bot repo if available
     live: 'https://example.com',
     featured: true
   }

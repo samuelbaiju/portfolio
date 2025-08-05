@@ -39,7 +39,7 @@ const About = () => {
           {/* About content */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-white">
-              Aspiring Full-Stack Developer | 3rd Year Computer Science Student | Exploring Python, Django, and Frontend Technologies
+              Aspiring Full-Stack Developer | 4th Year Computer Science Student | Exploring Python, Django, and Frontend Technologies
             </h3>
             
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -60,7 +60,7 @@ const About = () => {
   Problem Solver
 </span>
 <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm font-medium border border-purple-500/30">
-  Open Source Contributor
+  Tools Automation
 </span>
 <span className="px-4 py-2 bg-green-500/20 text-green-300 rounded-full text-sm font-medium border border-green-500/30">
   Continuous Learner

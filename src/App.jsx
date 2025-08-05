@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <Contact />
       </main>
       
       {/* Footer */}
@@ -23,7 +21,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-gray-400">
-              © 2024 Samuel Baiju. Built with React & Tailwind CSS
+              © 2025 Samuel Baiju. Built with React & Tailwind CSS
             </p>
             <p className="text-gray-500 text-sm mt-2">
             </p>
